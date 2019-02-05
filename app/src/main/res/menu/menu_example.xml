@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mn_settings"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Settings"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mn_profile"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Profile"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/mn_about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="About"
+        app:showAsAction="withText" />
+
+</menu>
